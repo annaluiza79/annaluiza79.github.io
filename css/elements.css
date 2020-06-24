@@ -1,0 +1,27 @@
+/*
+  seletores de elementos HTML
+*/
+body {
+  background-image: url("../img/juquery-salto.jpg");
+  font-family: Didot, serif;
+  text-align: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: #0a3709;
+}
+
+header {
+  height: 100vh;
+}

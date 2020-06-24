@@ -1,0 +1,14 @@
+/*
+  NOTA SOBRE A ORGANIZAÇÃO DESTE ARQUIVO
+
+Estão agrupados os seletores:
+- para RESET
+- para ELEMENTOS HTML
+- para CLASSES CSS
+
+A ordenação dentro de cada grupo se dá pelo alfabeto
+*/
+@charset "UTF-8";
+@import "reset.css";
+@import "elements.css";
+@import "classes.css";
