@@ -78,29 +78,24 @@ header > div {
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
 }
-
 .grid figure:hover {
   background-size: 175%;
 }
-
 .grid figure:hover:after {
-  content: 'ASSISTA';
+  content: attr(data-caption);
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  font-size: 36px;
+  font-size: 34px;
   z-index: 2;
 }
-
 .grid figure:hover figcaption {
   transform: translateY(-110%);
 }
-
 .grid figure figcaption {
   color: white;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   z-index: 1;
 }
-
 .grid figure figcaption {
   margin: 0 0 5px;
   font-family: "Source Code Pro", sans-serif;
@@ -108,8 +103,3 @@ header > div {
   line-height: 1.35;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
 }
-
-/* .grid figure figcaption {
-  background-color: rgba(241, 196, 15, 0.6);
-} */
-
