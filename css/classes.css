@@ -38,7 +38,6 @@ header > div {
   justify-content: center;
   height: 180px;
   width: 180px;
-  background-image: url("../img/espetaculo-so-caixa.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 140%;
@@ -48,7 +47,15 @@ header > div {
   overflow: hidden;
   margin: 10px;
 }
-
+.spectacle{
+  background-image: url("../img/espetaculo-so-caixa.jpg");
+}
+.performace{
+  background-image: url("../img/espetaculopanogigante.jpg");
+}
+.companies{
+  background-image: url("../img/espetaculo-so-caixa.jpg");
+}
 .grid figure:before, .grid figure:after {
   position: absolute;
   top: 0;
