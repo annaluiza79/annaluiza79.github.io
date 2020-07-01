@@ -50,11 +50,11 @@ header > div {
 .spectacle{
   background-image: url("../img/espetaculo-so-caixa.jpg");
 }
-.performace{
-  background-image: url("../img/espetaculopanogigante.jpg");
+.performance{
+  background-image: url("../img/senhoras.jpg");
 }
 .companies{
-  background-image: url("../img/espetaculo-so-caixa.jpg");
+  background-image: url("../img/punch+cia.jpg");
 }
 .grid figure:before, .grid figure:after {
   position: absolute;
