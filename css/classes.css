@@ -40,7 +40,7 @@ header > div {
   width: 180px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 140%;
+  background-size: 180px;
   border-radius: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -48,7 +48,7 @@ header > div {
   margin: 10px;
 }
 .spectacle{
-  background-image: url("../img/espetaculo-so-caixa.jpg");
+  background-image: url("../img/so.png");
 }
 .performance{
   background-image: url("../img/senhoras.jpg");
@@ -85,7 +85,7 @@ header > div {
 
 .grid figure:hover:after {
   content: 'ASSISTA';
-  background-color: rgba(241, 196, 15, 0.8);
+  background-color: rgba(161, 140, 52, 0.6);
   color: white;
   font-size: 36px;
   z-index: 2;
@@ -110,6 +110,6 @@ header > div {
 }
 
 .grid figure figcaption {
-  background-color: rgba(241, 196, 15, 0.8);
+  background-color: rgba(241, 196, 15, 0.6);
 }
 
