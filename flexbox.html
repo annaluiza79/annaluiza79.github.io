@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TEST HTML</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      *,
+      *:before,
+      *:after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+      }
+      .fullscreen {
+        border-style: double;
+        border-color: blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .topscreen {
+        border-style: dotted;
+        border-color: red;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 100vw;
+        height: 50vh;
+        padding: 20px;
+      }
+      .topscreen > div {
+        text-align: end;
+      }
+      .title {
+        font-size: 5vw;
+      }
+      .subtitle {
+        font-size: 3vw;
+      }
+
+      .bottomscreen {
+        border-style: dotted;
+        border-color: red;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100vw;
+        height: 50vh;
+      }
+      .bottomscreen > div {
+        border: 1px dashed gray;
+        flex: 1 1 auto; /* flex-grow:1 flex-shrink:1 flex-basis:auto */
+        text-align: center;
+        padding: 12px;
+      }
+      .thumbnail {
+        margin-right: 20px;
+        border-style: solid;
+        border-color: black;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        position: relative;
+      }
+      .thumbnail > img {
+        height: 100%;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: 0.5s ease;
+        background-color: #008cba;
+      }
+      .thumbnail:hover .overlay {
+        opacity: 0.9;
+      }
+      .grayscale {
+        filter: grayscale(100%);
+      }
+      .sepia {
+        filter: sepia(100%);
+      }
+      .hue-90 {
+        filter: hue-rotate(90deg);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="fullscreen">
+        <div class="topscreen">
+          <div>
+            <h1 class="title">Anna Luiza Marques</h1>
+            <h2 class="subtitle">Artista</h2>
+          </div>
+        </div>
+        <div class="bottomscreen">
+          <div class="thumbnail grayscale">
+            <img src="./img/espetaculo-so-caixa.jpg" />
+            <div class="overlay">
+              <div class="text">ASSISTA</div>
+            </div>
+          </div>
+          <div class="thumbnail hue-90">
+            <img src="./img/espetaculo-so-caixa.jpg" />
+            <div class="overlay">
+              <div class="text">ASSISTA</div>
+            </div>
+          </div>
+          <div class="thumbnail sepia">
+            <img src="./img/espetaculo-so-caixa.jpg" />
+            <div class="overlay">
+              <div class="text">ASSISTA</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
